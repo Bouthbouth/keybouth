@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="J1Ek0b" name="Keybouth" projectType="audioplug" jucerVersion="5.4.7">
+  <MAINGROUP id="EusNcN" name="Keybouth">
+    <GROUP id="{E286EF0C-9326-712C-26B7-3F2FD6F0827E}" name="PluginProcessor">
+      <FILE id="MlP49a" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="KS69Iz" name="PluginProcessor.h" compile="1" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="h6B5y6" name="SineWaveSound.cpp" compile="1" resource="0"
+            file="Source/SineWaveSound.cpp"/>
+      <FILE id="VCbrBY" name="SineWaveSound.h" compile="1" resource="0" file="Source/SineWaveSound.h"/>
+      <FILE id="n7egFO" name="SineWaveVoice.cpp" compile="1" resource="0"
+            file="Source/SineWaveVoice.cpp"/>
+      <FILE id="Gg4lEY" name="SineWaveVoice.h" compile="1" resource="0" file="Source/SineWaveVoice.h"/>
+    </GROUP>
+    <GROUP id="{E33F94AB-2EC8-9CF0-D617-8EFB2535C5BE}" name="resources"/>
+    <GROUP id="{1E8FC1F1-FA76-2BD8-C415-2BFFD89D8717}" name="PluginEditor">
+      <FILE id="lTN0dk" name="PluginEditor.h" compile="1" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="aOuNkP" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+    </GROUP>
+    <GROUP id="{E09B4186-B65D-E2F5-E17B-C31988789340}" name="Source"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
